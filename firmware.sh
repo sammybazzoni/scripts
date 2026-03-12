@@ -1768,8 +1768,7 @@ function stock_menu() {
 				&& ("$isCmlBook" = false || "$device" == "drallion") && "$isEOL" = false ) ]]; then
 			flash_rwlegacy
 		elif [[ "$isEOL" = "true" ]]; then
-			echo_red "The RW_LEGACY firmware update is not supported for devices which have reached end-of-life"
-			read -rep "Press enter to return to the main menu"
+			flash_rwlegacy
 		fi
 		menu_fwupdate
 		;;
