@@ -1722,9 +1722,9 @@ function stock_menu() {
 
 	if [[ "$unlockMenu" = true || ( "$isFullRom" = false && "$isStock" = true && "$isUnsupported" = false \
 			&& ("$isCmlBook" = false || "$device" == "drallion") && "$isEOL" = false ) ]]; then
-		echo -e "${MENU}**${WP_TEXT}     ${NUMBER} 1)${MENU} Install/Update RW_LEGACY Firmware ${NORMAL}"
+		echo -e "${MENU}**${WP_TEXT}     ${NUMBER} 0)${MENU} Install/Update RW_LEGACY Firmware ${NORMAL}"
 	else
-		echo -e "${GRAY_TEXT}**     ${GRAY_TEXT} 1)${GRAY_TEXT} Install/Update RW_LEGACY Firmware ${NORMAL}"
+		echo -e "${GRAY_TEXT}**     ${GRAY_TEXT} 0)${GRAY_TEXT} Install/Update RW_LEGACY Firmware ${NORMAL}"
 	fi
 	if [[ "$unlockMenu" = true || "$hasUEFIoption" = true ]]; then
 		echo -e "${MENU}**${WP_TEXT} [WP]${NUMBER} 2)${MENU} Install/Update UEFI (Full ROM) Firmware ${NORMAL}"
