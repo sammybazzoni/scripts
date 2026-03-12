@@ -1,4 +1,4 @@
-# ChromeOS Firmware Utility Scripts
+# ChromeOS Firmware Utility Scripts removed eol legacy mode
 
 Home of the ChromeOS Firmware Utility script and Kodi E-Z Setup script.
 
