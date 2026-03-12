@@ -6,7 +6,7 @@
 # ChromeOS devices
 #
 # Created by Mr.Chromebox <mrchromebox@gmail.com>
-#
+# edited by sam bazzoni
 # May be freely distributed and modified as needed,
 # as long as proper attribution is given.
 #
