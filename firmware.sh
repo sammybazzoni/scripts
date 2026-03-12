@@ -1682,7 +1682,7 @@ function menu_fwupdate() {
 
 function show_header() {
 	printf "\ec"
-	echo -e "${NORMAL}\n ChromeOS Device Firmware Utility Script ${script_date} ${NORMAL}"
+	echo -e "${NORMAL}\n ChromeOS Device Firmware Utility Script edited by sam bazzoni ${script_date} ${NORMAL}"
 	echo -e "${NORMAL} (c) Mr Chromebox <mrchromebox@gmail.com> ${NORMAL}"
 	echo -e "${MENU}*********************************************************${NORMAL}"
 	echo -e "${MENU}**${NUMBER}     Device: ${NORMAL}${deviceDesc}"
