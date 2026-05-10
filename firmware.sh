@@ -129,7 +129,7 @@ then email MrChromebox@gmail.com  and include a screenshot of the main menu."
 		return 1
 	fi
 	if [[ "$rwlegacy_file" = *"altfw"* ]]; then
-				echo_green "\nInstall/Update RW_LEGACY Firmware (AltFw / edk2)"
+		echo_green "\nInstall/Update RW_LEGACY Firmware (AltFw / edk2)"
 	else
 		echo_green "\nInstall/Update RW_LEGACY Firmware (Legacy BIOS / SeaBIOS)"
 	fi
