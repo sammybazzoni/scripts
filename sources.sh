@@ -295,7 +295,7 @@ export rwl_altfw_adl_n="rwl_altfw-adl_n-mrchromebox_20251031.bin"
 export rwl_altfw_mtl="rwl_altfw-mtl-mrchromebox_20251031.bin"
 
 #RWL - AMD
-export rwl_altfw_stoney="rwl_altfw-str-mrchromebox_20251031.bin"
+export rwl_altfw_stoney="rwl_altfw-glk-mrchromebox_20251031.bin"
 export rwl_altfw_pco="rwl_altfw-pco-mrchromebox_20251031.bin"
 export rwl_altfw_mdn="rwl_altfw-mdn-mrchromebox_20251031.bin"
 export rwl_altfw_czn="rwl_altfw-czn-mrchromebox_20251031.bin"
