@@ -17,7 +17,7 @@
 script_dir="$(dirname "$(readlink -f "$0")")"
 
 #where the stuff is
-script_url="https://raw.githubusercontent.com/sammybazzoni/scripts/main/"
+script_url="https://raw.githubusercontent.com/sammybazzoni/scripts/test/"
 
 #ensure output of system tools in en-us for parsing
 export LC_ALL=C
